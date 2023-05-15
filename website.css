@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  div {
+    padding: 10px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+  }
+  input[type="text"],
+  textarea,
+  select {
+    font: 17px Calibri;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type="button"] {
+    font: 17px Calibri;
+    width: auto;
+    float: right;
+    cursor: pointer;
+    padding: 7px;
+  }
+
+  body{
+  background-image: linear-gradient(#1d4ed8, #76808f );
+  color: #666666;
+  background-attachment: fixed;
+	font-family: Arial;
+  position: relative;
+}
